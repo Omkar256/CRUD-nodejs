@@ -1,0 +1,29 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "Basic Server app for nodejs",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omkar256/CRUD-nodejs.git"
+  },
+  "author": "Omkar Chorghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omkar256/CRUD-nodejs/issues"
+  },
+  "homepage": "https://github.com/Omkar256/CRUD-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
